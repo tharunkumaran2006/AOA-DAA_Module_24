@@ -6,12 +6,12 @@ To demonstrate a python program using dynamic programming for 0/1 knapsack probl
 
 
 ## Algorithm
-1. Initialize 2D DP table `K[n+1][W+1]`.
+1. Initialize 2D DP table `dp[n+1][W+1]`.
 2. Iterate through items and capacities.
-3. Set `K[i][w] = 0` if item index or capacity is 0.
-4. If item weight ≤ capacity, set `K[i][w]` to max of including or excluding the item.
-5. Otherwise, set `K[i][w]` to value from previous item at same capacity.
-6. Return `K[n][W]` as the maximum value achievable.
+3. Set `dp[i][w] = 0` if item index or capacity is 0.
+4. If item weight ≤ capacity, set `dp[i][w]` to max of including or excluding the item.
+5. Otherwise, set `dp[i][w]` to value from previous item at same capacity.
+6. Return `dp[n][W]` as the maximum value achievable.
    
 ## Program:
 ```
