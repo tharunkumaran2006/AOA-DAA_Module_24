@@ -7,12 +7,12 @@ To write a python program using brute force method of searching for the given su
 
 
 ## Algorithm
-1.Take the main string and the substring as input.
-2.Find the lengths of both strings.
-3.Loop through the main string from index 0 to len(main) - len(substring).
-4.At each position, extract a slice equal to the length of the substring.
-5.Compare the slice with the substring; if they match, print the starting index.
-6.Continue until all possible positions are checked.
+1. Take the main string and the substring as input.
+2. Find the lengths of both strings.
+3. Loop through the main string from index 0 to len(main) - len(substring).
+4. At each position, extract a slice equal to the length of the substring.
+5. Compare the slice with the substring; if they match, print the starting index.
+6. Continue until all possible positions are checked.
 
 ## Program:
 ```
