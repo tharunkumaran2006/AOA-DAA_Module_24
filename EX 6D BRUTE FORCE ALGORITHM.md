@@ -15,11 +15,9 @@ To write a python program using brute force method of searching for the given su
 6. Continue until all possible positions are checked.
 
 ## Program:
-```
-To implement the program using brute force method of searching for the given substring in the main string.
-Developed by: LOKNAATH P 
-Register Number: 212223240080
-```
+### To implement the program using brute force method of searching for the given substring in the main string.
+### Developed by: THARUN V K
+### Register Number: 212223230231 
 ```py
 def match(string,sub):
     l = len(string)
