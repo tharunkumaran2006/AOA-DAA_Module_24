@@ -22,11 +22,9 @@ When passing through a path cell containing a cherry, you pick it up, and the ce
 6. Return max cherries when robots reach the last row.
 
 ## Program:
-```
-To implement the program for Cherry pickup problem.
-Developed by: LOKNAATH P
-Register Number: 212223240080 
-```
+### To implement the program for Cherry pickup problem.
+### Developed by: THARUN V K
+### Register Number: 212223230231 
 ```py
 class Solution:
     def cherryPickup(self, grid):
