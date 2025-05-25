@@ -16,11 +16,9 @@ To Solve Travelling Sales man Problem for the following graph.
 6. Note: This brute-force method is feasible only for small V due to factorial complexity. 
 
 ## Program:
-```
-To implement the program for TSP.
-Developed by: LOKNAATH P 
-Register Number: 212223240080
-```
+### To implement the program for TSP.
+### Developed by: THARUN V K
+### Register Number: 212223230231 
 ```py
 from sys import maxsize
 from itertools import permutations
