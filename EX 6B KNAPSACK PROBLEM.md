@@ -14,11 +14,9 @@ To demonstrate a python program using dynamic programming for 0/1 knapsack probl
 6. Return `dp[n][W]` as the maximum value achievable.
    
 ## Program:
-```
-To implement the program for 0/1 knapsack problem.
-Developed by: LOKNAATH P 
-Register Number: 212223240080
-```
+### To implement the program for 0/1 knapsack problem.
+### Developed by: THARUN V K
+### Register Number: 212223230231 
 ```py
 def knapSack(W, wt, val, n):
     dp=[[-1]*(W+1) for _ in range(len(val)+1)]
